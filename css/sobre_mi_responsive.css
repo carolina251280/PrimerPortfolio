@@ -1,0 +1,355 @@
+
+  
+@media screen and (min-width: 768px) and (max-width: 992px){
+    nav ul a{
+        font-size: 13px;
+        padding: 5px 13px;
+    }
+    main .texto h1{
+        font-size: 28px;
+    }
+    main .texto p{
+        font-size: 16px;
+    }
+    .botones a{
+        font-size: 12px;
+    }
+    .botones a:hover{
+        border-width: 5px;
+        font-size: 15px;
+    }
+    .boton1, .boton2, .boton3{
+        bottom: 10%;
+    }
+    .boton1{
+        left: 10%;
+    }
+    .boton2{
+        left:41%;
+    }
+    .boton3{
+        left: 73%;
+    }
+
+    /* *****Estilos para habilidades técnicas***** */
+    .lista ul li{
+        font-size: 20px;
+        width: 30%;
+        height: 25%;
+        margin: 30px 10px 0px;
+    }
+    .lista1{
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    .icono,.icono_js{
+        width: 50px;
+        height: 55px;
+        margin: 5px;
+    }
+    .icono_css {
+        width: 50px;
+        height: 57px;
+        position: relative;
+        margin: 5px;
+      }
+      .icono_vs,
+      .icono_bootstrap,
+      .icono_git,
+      .icono_database {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin: 5px;
+      }
+      .icono_ac {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin: 5px;
+      }
+
+}
+@media screen and (min-width: 576px) and (max-width:768px){
+    nav ul a{
+        font-size: 13px;
+        padding: 5px 13px;
+    }
+    main .texto h1{
+        font-size: 25px;
+    }
+    main .texto p{
+        font-size: 14px;
+    }
+    .botones a{
+        font-size: 10px;
+        padding: 8px 16px;
+    }
+    .botones a:hover{
+        border-width: 5px;
+        font-size: 13px;
+    }
+    .boton1, .boton2, .boton3{
+        bottom: 10%;
+    }
+    .boton1{
+        left: 10%;
+    }
+    .boton2{
+        left:40%;
+    }
+    .boton3{
+        left: 71%;
+    }
+        /* *****Estilos para habilidades técnicas***** */
+        .lista ul li{
+            font-size: 18px;
+            width: 35%;
+            height: 25%;
+            margin: 30px 10px 0px;
+        }
+        .lista1{
+            justify-content: space-evenly;
+            padding-top: 20px;
+        }
+        .icono,.icono_js{
+            width: 50px;
+            height: 55px;
+            margin: 5px;
+        }
+        .icono_css {
+            width: 50px;
+            height: 57px;
+            position: relative;
+            margin: 5px;
+          }
+          .icono_vs,
+          .icono_bootstrap,
+          .icono_git,
+          .icono_database {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            margin: 5px;
+          }
+          .icono_ac {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            margin: 5px;
+          }
+
+          /* *****Estilos para formación académica***** */
+
+      .lista2{
+        padding: 30px 0;
+        justify-content: space-evenly;
+        
+      }
+
+    .lista_form ul li{
+        font-size: 15px;
+        width: 27%;
+        height: 40%;
+        padding: 15px 10px;
+        margin: 30px 10px 20px;
+    }
+    
+
+}
+
+@media screen and (min-width:360px) and (max-width: 576px){
+    nav ul a{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+    main{
+        width: 100%;
+        height: auto;
+    }
+    main .texto {
+        padding: 15px;
+        width: 90%;
+        height: auto;
+      }
+    main .texto h1{
+        font-size: 22px;
+    }
+    main .texto p{
+        font-size: 14px;
+        padding: 30px 5px 10px;
+    }
+    .botones a{
+        font-size: 9px;
+        padding: 5px;
+    }
+    .botones a:hover{
+        border-width: 3px;
+        font-size: 11px;
+    }
+    .boton1, .boton2, .boton3{
+        bottom: 15%;
+    }
+    .boton1{
+        left: 8%;
+    }
+    .boton2{
+        left:39%;
+    }
+    .boton3{
+        left: 70%;
+    }
+    
+    /* *****Estilos para habilidades técnicas***** */
+    .lista ul li{
+        font-size: 15px;
+        width: 35%;
+        height: 20%;
+        margin: 30px 10px 0px;
+    }
+    .lista1{
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+    .icono,.icono_js{
+        width: 50px;
+        height: 55px;
+        margin: 5px;
+    }
+    .icono_css {
+        width: 50px;
+        height: 57px;
+        position: relative;
+        margin: 5px;
+      }
+      .icono_vs,
+      .icono_bootstrap,
+      .icono_git,
+      .icono_database {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin: 5px;
+      }
+      .icono_ac {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin: 5px;
+      }
+
+      /* *****Estilos para formación académica***** */
+
+      .lista2{
+        padding: 30px 0;
+        justify-content: space-evenly;
+        
+      }
+
+    .lista_form ul li{
+        font-size: 13px;
+        width: 40%;
+        height: 27%;
+        padding: 20px 10px;
+        margin: 30px 10px 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    nav ul a{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+    main{
+        width: 100%;
+        height: auto;
+    }
+    main .texto {
+        padding: 15px;
+        width: 90%;
+        height: auto;
+      }
+    main .texto h1{
+        font-size: 20px;
+    }
+    main .texto p{
+        font-size: 12px;
+        padding: 30px 5px 10px;
+    }
+    .botones a{
+        font-size: 9px;
+        padding: 5px;
+    }
+    .botones a:hover{
+        border-width: 3px;
+        font-size: 11px;
+    }
+        .boton1, .boton2, .boton3{
+        bottom: 5%;
+    }
+    .boton1{
+        left: 8%;
+    }
+    .boton2{
+        left:39%;
+    }
+    .boton3{
+        left: 70%;
+    }
+    
+    /* *****Estilos para habilidades técnicas***** */
+    .lista ul li{
+        font-size: 13px;
+        width: 37%;
+        height: 22%;
+        margin: 20px 10px 0px;
+    }
+    .lista1{
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+    .icono,.icono_js{
+        width: 45px;
+        height: 50px;
+        margin: 5px;
+    }
+    .icono_css {
+        width: 45px;
+        height: 52px;
+        position: relative;
+        margin: 5px;
+      }
+      .icono_vs,
+      .icono_bootstrap,
+      .icono_git,
+      .icono_database {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        margin: 5px;
+      }
+      .icono_ac {
+        width: 45px;
+        height: 45px;
+        position: relative;
+        margin: 5px;
+      }
+
+      /* *****Estilos para formación académica***** */
+
+      .lista2{
+        padding: 30px 0;
+        justify-content: space-evenly;
+        
+      }
+
+    .lista_form ul li{
+        font-size: 13px;
+        width: 40%;
+        height: 27%;
+        padding: 20px 10px;
+        margin: 30px 10px 20px;
+    }
+
+
+}

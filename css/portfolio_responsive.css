@@ -1,0 +1,107 @@
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  nav ul a{
+      font-size: 13px;
+      padding: 5px 13px;
+  }
+  main .texto{
+    padding: 20px 70px;
+  }
+  main .texto h1{
+      font-size: 28px;
+
+  }
+
+  .lista li .list_porfolio{
+    background-position: 0 50%;
+    background-size: 1.3rem;
+    padding-left: 1.5rem;
+    font-size: 18px;
+  }
+  .lista li .list_porfolio:hover{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width:768px){
+  nav ul a{
+      font-size: 13px;
+      padding: 5px 13px;
+  }
+  main .texto{
+    padding: 20px 50px;
+  }
+  main .texto h1{
+      font-size: 25px;
+
+  }
+
+  .lista li .list_porfolio{
+    background-position: 0 50%;
+    background-size: 1.2rem;
+    padding-left: 1.4rem;
+    font-size: 16px;
+  }
+  .lista li .list_porfolio:hover{
+    font-size: 18px;
+  }
+
+}
+
+  
+
+@media screen and (min-width:360px) and (max-width: 576px){
+  nav ul a{
+      font-size: 10px;
+      padding: 5px 8px;
+  }
+
+  main .texto{
+    padding: 20px 40px;
+  }
+  main .texto h1{
+      font-size: 22px;
+
+  }
+
+  .lista li .list_porfolio{
+    background-position: 0 50%;
+    background-size: 1rem;
+    padding-left: 1.2rem;
+    font-size: 14px;
+  }
+  .lista li .list_porfolio:hover{
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 360px){
+  nav ul a{
+      font-size: 10px;
+      padding: 5px 8px;
+  }
+
+  main .texto{
+    padding: 20px 30px;
+  }
+  main .texto h1{
+      font-size: 20px;
+
+  }
+
+  .lista li .list_porfolio{
+    background-position: 0 50%;
+    background-size: 0.8rem;
+    padding-left: 1rem;
+    font-size: 12px;
+  }
+  .lista li .list_porfolio:hover{
+    font-size: 14px;
+  }
+
+}
+
+
+  

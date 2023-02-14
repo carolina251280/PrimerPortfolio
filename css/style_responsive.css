@@ -1,0 +1,98 @@
+
+@media screen and (min-width: 992px) and (max-width:1199px){
+    .texto h2{
+      font-size: 36px;
+    }
+    .fondo1 img{
+      right: 18%;
+    }
+  }
+  
+@media screen and (min-width: 768px) and (max-width: 992px){
+    nav ul a{
+        font-size: 13px;
+        padding: 5px 13px;
+    }
+    .texto h2{
+        font-size: 30px;
+      }
+      /* .fondo1 img{
+        right: 10%;
+      }  */
+}
+@media screen and (min-width: 576px) and (max-width:768px){
+    nav ul a{
+        font-size: 14px;
+        padding: 5px 13px;
+    }
+    .texto h2{
+        font-size: 25px;
+        bottom: 25%;
+      }
+    .fondo2 img{
+        height: 38%; 
+    }   
+      .fondo1 img{
+        right: 19%;
+      } 
+    .boton{
+        bottom: 25%;
+    }
+    .boton a{
+        border-radius: 30px;
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+    .boton a:hover{
+        font-size: 15px;
+        border-width: 5px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    nav ul a{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+    .texto h2{
+        font-size: 22px;
+        left: 10%;
+        bottom: 28%;
+      }
+    .fondo2 img{
+        width: 90%;
+        height: 35%; 
+        left: 6%;
+        top: 15%;
+        filter: drop-shadow(1px 3px 1px rgb(251, 251, 251));
+    }   
+      .fondo1 img{
+        left: 12%;
+        top:15%;
+        width: 15%;
+        height: 12%;
+      } 
+    .boton{
+        bottom: 12%;
+        left: 24%;
+    }
+    .boton a{
+        border-radius: 30px;
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+    .boton a:hover{
+        font-size: 15px;
+        border-width: 7px;
+    }
+    .texto{
+        width: 90%;
+    }
+    
+
+}
+  
+  /* @media (min-width: 576px)
+  @media (min-width: 768px)
+  @media (min-width: 992px)
+  @media (min-width: 1200px) */

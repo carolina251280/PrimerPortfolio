@@ -1,0 +1,227 @@
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    nav ul a{
+        font-size: 13px;
+        padding: 5px 13px;
+    }
+    main {
+      padding: 20px 20px;
+    }
+    main h1{
+        font-size: 28px;
+  
+    }
+    form{
+       padding: 0 10px 30px 20px; 
+    }
+
+    button{
+        padding: 15px 20px;
+    }
+    .datos_contacto{
+        width: 55%;
+        padding-left: 10px;
+    }
+    .datos_contacto > p{
+        font-size: 20px;
+        padding: 75px 0 0 30px;
+    }
+    .datos_contacto > div{
+        font-size: 33px;
+        width: 100%;
+        padding: 3.5em 0 0 10px;
+        justify-content: center;
+    }
+    .fa-envelope{
+        font-size: 22px;
+    }
+    .fa-mobile-screen{
+        font-size: 25px;
+    }  
+
+
+  
+  }
+  
+  @media screen and (min-width: 576px) and (max-width:768px){
+    nav ul a{
+        font-size: 13px;
+        padding: 5px 13px;
+    }
+    main {
+        padding: 20px 10px;
+      }
+      main h1{
+          font-size: 25px;
+    
+      }
+      form{
+         padding: 0 10px 30px; 
+      }
+
+      button{
+          padding: 10px 15px;
+          font-size: 14px;
+          
+      }
+      button:hover {
+        border-width: 5px;
+        font-size: 16px;
+      }
+      .datos_contacto{
+          width: 55%;
+          padding-left: 10px;
+      }
+      .datos_contacto > p{
+          font-size: 20px;
+          padding: 65px 0 0 10px;
+      }
+      .datos_contacto > div{
+          font-size: 28px;
+          width: 100%;
+          padding: 3.5em 0 0 10px;
+          justify-content: center;
+      }
+      .fa-envelope{
+          font-size: 18px;
+      }
+      .fa-mobile-screen{
+          font-size: 21px;
+      }  
+  
+  
+  }
+  
+  
+  @media screen and (min-width:360px) and (max-width: 576px){
+    nav ul a{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+  
+    main {
+        padding: 10px 10px;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      main h1{
+          font-size: 22px;
+    
+      }
+      .formulario{
+        width: 90%;
+        height: 55%;
+      }
+      form{
+         padding: 0 10px 30px; 
+      }
+      form label,
+textarea {
+  padding: 15px;
+}
+form input,
+textarea {
+  padding: 5px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+}
+      button{
+          padding: 5px 10px;
+          font-size: 12px;
+          
+      }
+      button:hover {
+        border-width: 4px;
+        font-size: 14px;
+      }
+      .datos_contacto{
+          width: 90%;
+          height: 40%;
+          padding-left: 10px;
+      }
+      .datos_contacto > p{
+          font-size: 16px;
+          padding: 30px 0 0 0px;
+      }
+      .datos_contacto > div{
+          font-size: 28px;
+          width: 100%;
+          padding: 1.2em 0 0 0px;
+          justify-content: center;
+      }
+      .fa-envelope{
+          font-size: 18px;
+      }
+      .fa-mobile-screen{
+          font-size: 21px;
+      }  
+  
+  }
+  
+  @media screen and (max-width: 360px){
+    nav ul a{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+  
+    main {
+        padding: 10px 10px;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      main h1{
+          font-size: 20px;
+    
+      }
+      .formulario{
+        width: 90%;
+        height: 55%;
+      }
+      form{
+         padding: 0 10px 30px; 
+      }
+      form label,
+textarea {
+  padding: 15px;
+}
+form input,
+textarea {
+  padding: 5px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 10px;
+  font-style: italic;
+}
+      button{
+          padding: 5px 10px;
+          font-size: 12px;
+          
+      }
+      button:hover {
+        border-width: 4px;
+        font-size: 14px;
+      }
+      .datos_contacto{
+          width: 90%;
+          height: 40%;
+          padding-left: 10px;
+      }
+      .datos_contacto > p{
+          font-size: 15px;
+          padding: 30px 0 0 0px;
+      }
+      .datos_contacto > div{
+          font-size: 25px;
+          width: 90%;
+          padding: 1.2em 0 0 0px;
+          justify-content: center;
+      }
+      .fa-envelope{
+          font-size: 18px;
+      }
+      .fa-mobile-screen{
+          font-size: 21px;
+      }  
+  
+  }
+  
