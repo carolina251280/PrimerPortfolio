@@ -49,7 +49,7 @@
     }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (min-width:360px) and (max-width: 576px){
     nav ul a{
         font-size: 10px;
         padding: 5px 8px;
@@ -92,6 +92,46 @@
 
 }
   
+@media screen and (max-width: 360px){
+  nav ul a{
+      font-size: 8px;
+      padding: 5px 8px;
+  }
+  .texto h2{
+      font-size: 22px;
+      left: 10%;
+      bottom: 28%;
+    }
+  .fondo2 img{
+      width: 90%;
+      height: 35%; 
+      left: 6%;
+      top: 15%;
+      filter: drop-shadow(1px 3px 1px rgb(251, 251, 251));
+  }   
+    .fondo1 img{
+      left: 12%;
+      top:15%;
+      width: 15%;
+      height: 12%;
+    } 
+  .boton{
+      bottom: 12%;
+      left: 24%;
+  }
+  .boton a{
+      border-radius: 30px;
+      font-size: 13px;
+      padding: 8px 15px;
+  }
+  .boton a:hover{
+      font-size: 15px;
+      border-width: 7px;
+  }
+  .texto{
+      width: 90%;
+  }
+}
   /* @media (min-width: 576px)
   @media (min-width: 768px)
   @media (min-width: 992px)

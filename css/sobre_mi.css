@@ -52,7 +52,7 @@ li a:hover {
   );
   position: relative;
   width: 100vw;
-  height: calc(100vh - 5vh);
+  height: 95%;
 }
 
 main {
@@ -64,7 +64,7 @@ main {
 }
 
 main .texto {
-  padding: 20px;
+  padding: 20px 0;
   width: 90%;
   height: auto;
 }
@@ -84,9 +84,9 @@ main .texto p {
   font-size: 18px;
   padding: 40px 10px 30px;
   text-align: justify;
-  -webkit-animation: 1s aparicion 1;
+  animation: 1s aparicion 1;
 }
-@-webkit-keyframes aparicion {
+@keyframes aparicion {
   0% {
     opacity: 0;
   }
@@ -97,7 +97,14 @@ main .texto p {
     opacity: 0.8;
   }
 }
-
+.botones{
+  width: 90%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 .botones a{
   color: white;
   background: orangered;
@@ -112,25 +119,14 @@ main .texto p {
   margin: 10px;
 }
 .botones a:hover{
-  border-width: 7px;
-  font-size: 18px;
+  /* border-width: 7px; */
+  /* box-shadow: inset 0 0 0 7px rgb(255, 255, 255); */
+  
+  box-shadow: 0px 0px 0px 7px rgba(246,241,241,1);
+  -webkit-box-shadow: 0px 0px 0px 7px rgba(246,241,241,1);
+  -moz-box-shadow: 0px 0px 0px 7px rgba(246,241,241,1);
 }
 
-.boton1 {
-  position: absolute;
-  left: 12%;
-  bottom: 13%;
-}
-.boton2 {
-  position: absolute;
-  left: 43%;
-  bottom: 13%;
-}
-.boton3 {
-  position: absolute;
-  left: 75%;
-  bottom: 13%;
-}
 
 footer img {
   bottom: 0;
@@ -167,11 +163,11 @@ footer img {
   transition: 0.5s;
 }
 .lista ul li:hover {
-  -webkit-animation: 1.5s girotresd 1;
-  -webkit-backface-visibility: visible;
+  animation: 1.5s girotresd 1;
+  backface-visibility: visible;
 }
 
-@-webkit-keyframes girotresd {
+@keyframes girotresd {
   40% {
     -webkit-transform: perspective(800px) translateZ(120px) rotateY(170deg);
   }
@@ -311,8 +307,8 @@ footer img {
   }
 }
 .lista_form ul li:hover {
-  -webkit-animation: 2.5s girotresd 1;
-  -webkit-backface-visibility: visible;
+  animation: 2.5s girotresd 1;
+  backface-visibility: visible;
 }
 
 @-webkit-keyframes girotresd {
