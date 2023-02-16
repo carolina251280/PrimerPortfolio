@@ -1,341 +1,334 @@
-@media screen and (min-width:992px){
-    main .texto h1{
-        font-size: 32px;
-    }
-    main .texto p{
-        font-size: 18x;
-        padding: 40px 10px;
-    }
+@media screen and (min-width: 992px) {
+  main .texto h1 {
+    font-size: 32px;
+  }
+  main .texto p {
+    font-size: 18x;
+    padding: 40px 10px;
+  }
 }
-  
-@media screen and (min-width: 767px) and (max-width: 992px){
-    nav ul a{
-        font-size: 13px;
-        padding: 5px 13px;
-    }
-    main .texto h1{
-        font-size: 25px;
-    }
-    main .texto p{
-        font-size: 15px;
-    }
-    .botones a{
-        font-size: 12px;
-    }
-    .botones a:hover{
-        box-shadow: 0px 0px 0px 5px rgba(246,241,241,1);
--webkit-box-shadow: 0px 0px 0px 5px rgba(246,241,241,1);
--moz-box-shadow: 0px 0px 0px 5px rgba(246,241,241,1);
-    }
 
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  nav ul a {
+    font-size: 13px;
+    padding: 5px 13px;
+  }
+  main .texto h1 {
+    font-size: 25px;
+  }
+  main .texto p {
+    font-size: 15px;
+  }
+  .botones a {
+    font-size: 12px;
+  }
+  .botones a:hover {
+    box-shadow: 0px 0px 0px 5px rgba(246, 241, 241, 1);
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(246, 241, 241, 1);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(246, 241, 241, 1);
+  }
 
-    /* *****Estilos para habilidades técnicas***** */
-    .lista ul li{
-        font-size: 20px;
-        width: 30%;
-        height: 26%;
-        margin: 30px 10px 5px;
-    }
-    .lista1{
-        justify-content: start;
-        padding-top: 30px;
-    }
-    .icono,.icono_js{
-        width: 50px;
-        height: 55px;
-        margin: 5px;
-    }
-    .icono_css {
-        width: 50px;
-        height: 57px;
-        position: relative;
-        margin: 5px;
-      }
-      .icono_vs,
-      .icono_bootstrap,
-      .icono_git,
-      .icono_database {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        margin: 5px;
-      }
-      .icono_ac {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        margin: 5px;
-      }
-                /* *****Estilos para formación académica***** */
+  /* *****Estilos para habilidades técnicas***** */
+  .lista ul li {
+    font-size: 20px;
+    width: 30%;
+    height: 26%;
+    margin: 30px 10px 5px;
+  }
+  .lista1 {
+    justify-content: start;
+    padding-top: 30px;
+  }
+  .icono,
+  .icono_js {
+    width: 50px;
+    height: 55px;
+    margin: 5px;
+  }
+  .icono_css {
+    width: 50px;
+    height: 57px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_vs,
+  .icono_bootstrap,
+  .icono_git,
+  .icono_database {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_ac {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 5px;
+  }
+  /* *****Estilos para formación académica***** */
 
-                .lista2{
-                    padding-top: 20px;
-                    /* justify-content: center; */
-                    
-                  }
-            
-                .lista_form ul li{
-                    font-size: 15px;
-                    width: 28%;
-                    height: 42%;
-                    padding: 15px 10px;
-                    margin: 30px 10px 20px;
-                }
+  .lista2 {
+    padding-top: 20px;
+    /* justify-content: center; */
+  }
 
+  .lista_form ul li {
+    font-size: 15px;
+    width: 28%;
+    height: 42%;
+    padding: 15px 10px;
+    margin: 30px 10px 20px;
+  }
 }
-@media screen and (min-width: 576px) and (max-width:767px){
-    nav ul a{
-        font-size: 13px;
-        padding: 5px 13px;
-    }
-    main .texto h1{
-        font-size: 25px;
-    }
-    main .texto p{
-        font-size: 16px;
-    }
-    .botones a{
-        font-size: 10px;
-        padding: 8px 16px;
-    }
-    .botones a:hover{
-        box-shadow: 0px 0px 0px 5px rgba(246,241,241,1);
--webkit-box-shadow: 0px 0px 0px 5px rgba(246,241,241,1);
--moz-box-shadow: 0px 0px 0px 5px rgba(246,241,241,1);
-        /* border-width: 5px;
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  nav ul a {
+    font-size: 13px;
+    padding: 5px 13px;
+  }
+  main .texto h1 {
+    font-size: 25px;
+  }
+  main .texto p {
+    font-size: 16px;
+  }
+  .botones a {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+  .botones a:hover {
+    box-shadow: 0px 0px 0px 5px rgba(246, 241, 241, 1);
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(246, 241, 241, 1);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(246, 241, 241, 1);
+    /* border-width: 5px;
         font-size: 13px; */
-    }
+  }
 
-        /* *****Estilos para habilidades técnicas***** */
-        .lista ul li{
-            font-size: 16px;
-            width: 35%;
-            height: 25%;
-            margin: 30px 10px 0px;
-        }
-        .lista1{
-            justify-content: space-evenly;
-            padding-top: 20px;
-        }
-        .icono,.icono_js{
-            width: 50px;
-            height: 55px;
-            margin: 5px;
-        }
-        .icono_css {
-            width: 50px;
-            height: 57px;
-            position: relative;
-            margin: 5px;
-          }
-          .icono_vs,
-          .icono_bootstrap,
-          .icono_git,
-          .icono_database {
-            width: 40px;
-            height: 40px;
-            position: relative;
-            margin: 5px;
-          }
-          .icono_ac {
-            width: 50px;
-            height: 50px;
-            position: relative;
-            margin: 5px;
-          }
+  /* *****Estilos para habilidades técnicas***** */
+  .lista ul li {
+    font-size: 16px;
+    width: 35%;
+    height: 25%;
+    margin: 30px 10px 0px;
+  }
+  .lista1 {
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  .icono,
+  .icono_js {
+    width: 50px;
+    height: 55px;
+    margin: 5px;
+  }
+  .icono_css {
+    width: 50px;
+    height: 57px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_vs,
+  .icono_bootstrap,
+  .icono_git,
+  .icono_database {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_ac {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 5px;
+  }
 
-          /* *****Estilos para formación académica***** */
+  /* *****Estilos para formación académica***** */
 
-      .lista2{
-        padding-top: 20px;
-        /* justify-content: center; */
-        
-      }
+  .lista2 {
+    padding-top: 20px;
+    /* justify-content: center; */
+  }
 
-    .lista_form ul li{
-        font-size: 15px;
-        width: 28%;
-        height: 40%;
-        padding: 15px 10px;
-        margin: 30px 10px 10px;
-    }
-    
-
+  .lista_form ul li {
+    font-size: 15px;
+    width: 28%;
+    height: 40%;
+    padding: 15px 10px;
+    margin: 30px 10px 10px;
+  }
 }
 
-@media screen and (min-width:360px) and (max-width: 576px){
-    nav ul a{
-        font-size: 10px;
-        padding: 5px 8px;
-    }
-    main{
-        width: 100%;
-        height: auto;
-    }
-    main .texto {
-        padding: 15px;
-        width: 90%;
-        height: auto;
-      }
-    main .texto h1{
-        font-size: 20px;
-    }
-    main .texto p{
-        font-size: 13px;
-        padding: 30px 5px 10px;
-    }
-    .botones a{
-        font-size: 9px;
-        padding: 5px;
-    }
-    .botones a:hover{
-        box-shadow: 0px 0px 0px 3px rgba(246,241,241,1);
--webkit-box-shadow: 0px 0px 0px 3px rgba(246,241,241,1);
--moz-box-shadow: 0px 0px 0px 3px rgba(246,241,241,1);
-        /* border-width: 3px;
+@media screen and (min-width: 360px) and (max-width: 576px) {
+  nav ul a {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+  main {
+    width: 100%;
+    height: auto;
+  }
+  main .texto {
+    padding: 15px;
+    width: 90%;
+    height: auto;
+  }
+  main .texto h1 {
+    font-size: 20px;
+  }
+  main .texto p {
+    font-size: 13px;
+    padding: 30px 5px 10px;
+  }
+  .botones a {
+    font-size: 9px;
+    padding: 5px;
+  }
+  .botones a:hover {
+    box-shadow: 0px 0px 0px 3px rgba(246, 241, 241, 1);
+    -webkit-box-shadow: 0px 0px 0px 3px rgba(246, 241, 241, 1);
+    -moz-box-shadow: 0px 0px 0px 3px rgba(246, 241, 241, 1);
+    /* border-width: 3px;
         font-size: 11px; */
-    }
+  }
 
-    
-    /* *****Estilos para habilidades técnicas***** */
-    .lista ul li{
-        font-size: 13px;
-        width: 43%;
-        height: 20%;
-        margin: 20px 10px 0px;
-    }
-    .lista1{
-        justify-content: start;
-        padding-top: 10px;
-    }
-    .icono,.icono_js{
-        width: 50px;
-        height: 55px;
-        margin: 5px;
-    }
-    .icono_css {
-        width: 50px;
-        height: 57px;
-        position: relative;
-        margin: 5px;
-      }
-      .icono_vs,
-      .icono_bootstrap,
-      .icono_git,
-      .icono_database {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        margin: 5px;
-      }
-      .icono_ac {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        margin: 5px;
-      }
+  /* *****Estilos para habilidades técnicas***** */
+  .lista ul li {
+    font-size: 13px;
+    width: 43%;
+    height: 20%;
+    margin: 20px 10px 0px;
+  }
+  .lista1 {
+    justify-content: start;
+    padding-top: 10px;
+  }
+  .icono,
+  .icono_js {
+    width: 50px;
+    height: 55px;
+    margin: 5px;
+  }
+  .icono_css {
+    width: 50px;
+    height: 57px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_vs,
+  .icono_bootstrap,
+  .icono_git,
+  .icono_database {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_ac {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 5px;
+  }
 
-      /* *****Estilos para formación académica***** */
+  /* *****Estilos para formación académica***** */
 
-      .lista2{
-        padding: 20px 0;
-        justify-content: space-evenly;
-        
-      }
+  .lista2 {
+    padding: 20px 0;
+    justify-content: space-evenly;
+  }
 
-    .lista_form ul li{
-        font-size: 13px;
-        width: 42%;
-        height: 32%;
-        padding: 20px 10px;
-        margin: 20px 10px 0px;
-    }
+  .lista_form ul li {
+    font-size: 13px;
+    width: 42%;
+    height: 32%;
+    padding: 20px 10px;
+    margin: 20px 10px 0px;
+  }
 }
 
-@media screen and (max-width: 360px){
-    nav ul a{
-        font-size: 8px;
-        padding: 5px 8px;
-    }
-    main{
-        width: 100%;
-        height: auto;
-    }
-    main .texto {
-        padding: 15px;
-        width: 90%;
-        height: auto;
-      }
-    main .texto h1{
-        font-size: 18px;
-    }
-    main .texto p{
-        font-size: 12px;
-        padding: 30px 5px 10px;
-    }
-    .botones a{
-        font-size: 9px;
-        padding: 5px;
-    }
-    .botones a:hover{
-        box-shadow: 0px 0px 0px 3px rgba(246,241,241,1);
--webkit-box-shadow: 0px 0px 0px 3px rgba(246,241,241,1);
--moz-box-shadow: 0px 0px 0px 3px rgba(246,241,241,1);
-    }
+@media screen and (max-width: 360px) {
+  nav ul a {
+    font-size: 8px;
+    padding: 5px 8px;
+  }
+  main {
+    width: 100%;
+    height: auto;
+  }
+  main .texto {
+    padding: 15px;
+    width: 90%;
+    height: auto;
+  }
+  main .texto h1 {
+    font-size: 18px;
+  }
+  main .texto p {
+    font-size: 12px;
+    padding: 30px 5px 10px;
+  }
+  .botones a {
+    font-size: 9px;
+    padding: 5px;
+  }
+  .botones a:hover {
+    box-shadow: 0px 0px 0px 3px rgba(246, 241, 241, 1);
+    -webkit-box-shadow: 0px 0px 0px 3px rgba(246, 241, 241, 1);
+    -moz-box-shadow: 0px 0px 0px 3px rgba(246, 241, 241, 1);
+  }
 
-    /* *****Estilos para habilidades técnicas***** */
-    .lista ul li{
-        font-size: 13px;
-        width: 42%;
-        height: 20%;
-        margin: 20px 10px 0px;
-    }
-    .lista1{
-        justify-content: space-evenly;
-        padding-top: 10px;
-    }
-    .icono,.icono_js{
-        width: 40px;
-        height: 45px;
-        margin: 5px;
-    }
-    .icono_css {
-        width: 40px;
-        height: 47px;
-        position: relative;
-        margin: 5px;
-      }
-      .icono_vs,
-      .icono_bootstrap,
-      .icono_git,
-      .icono_database {
-        width: 30px;
-        height: 30px;
-        position: relative;
-        margin: 5px;
-      }
-      .icono_ac {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        margin: 5px;
-      }
+  /* *****Estilos para habilidades técnicas***** */
+  .lista ul li {
+    font-size: 13px;
+    width: 42%;
+    height: 20%;
+    margin: 20px 10px 0px;
+  }
+  .lista1 {
+    justify-content: space-evenly;
+    padding-top: 10px;
+  }
+  .icono,
+  .icono_js {
+    width: 40px;
+    height: 45px;
+    margin: 5px;
+  }
+  .icono_css {
+    width: 40px;
+    height: 47px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_vs,
+  .icono_bootstrap,
+  .icono_git,
+  .icono_database {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 5px;
+  }
+  .icono_ac {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 5px;
+  }
 
-      /* *****Estilos para formación académica***** */
+  /* *****Estilos para formación académica***** */
 
-      .lista2{
-        padding: 10px 0;
-        justify-content: space-evenly;
-        
-      }
+  .lista2 {
+    padding: 10px 0;
+    justify-content: space-evenly;
+  }
 
-    .lista_form ul li{
-        font-size: 13px;
-        width: 42%;
-        height: 32%;
-        padding: 20px 10px;
-        margin: 20px 10px 0px;
-    }
-
-
+  .lista_form ul li {
+    font-size: 13px;
+    width: 42%;
+    height: 32%;
+    padding: 20px 10px;
+    margin: 20px 10px 0px;
+  }
 }
